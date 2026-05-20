@@ -1,0 +1,165 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container {
+  align-items: center;
+  width: 90%;
+  height: 90%;
+}
+.nav-bar {
+  width: 60%;
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+}
+.navigation {
+  color: rgb(104, 151, 144);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 30px auto;
+  font-size: 20px;
+  font-weight: 100;
+}
+.big-heading {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.big-heading img {
+  width: 38%;
+}
+.layout {
+  max-width: 80%;
+  margin: 20px auto;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  width: 35%;
+}
+.left img {
+  width: 90%;
+}
+.right {
+  width: 65%;
+}
+.right h1 {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: black;
+}
+.right p {
+  word-spacing: 5px;
+  line-height: 30px;
+  text-align: center;
+}
+.medium-image {
+  max-width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.medium-image img {
+  width: 90%;
+}
+.layout-2 {
+  max-width: 80%;
+  margin: 30px auto;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section {
+  width: 80%;
+  text-align: center;
+}
+.main-headline {
+  font-size: 18px;
+  color: #0a0c10;
+  line-height: 1.8;
+}
+
+.main-headline span {
+  font-size: 20px;
+}
+
+.right-text {
+  width: 50%;
+  text-align: left;
+}
+.text span {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+/* .center-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.center-list li {
+  position: relative;
+  padding-left: 0;
+  margin: 10px 0;
+}
+.center-list li::before {
+  content: ".";
+  position: absolute;
+  left: 0;
+} */
+ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.btn {
+  width: 150px;
+  height: 28px;
+  text-align: center;
+  background-color: green;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  border: 1px solid green;
+  color: green;
+}
+.big-image {
+  width: 100%;
+}
+.big-image img {
+  width: 100%;
+}
